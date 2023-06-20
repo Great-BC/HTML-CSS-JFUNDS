@@ -1,0 +1,333 @@
+/* Page 1 CSS*/
+.Poster {
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    
+   
+}
+.Poster > main {
+    background-image: url('../Images/Background-Img.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 280px;
+    margin-top: 30px;
+    padding-top: 100px;
+    height: 800px;
+}
+/* Navbar */
+.Navbar {
+    display: flex;
+    background-color: black;
+    height: 35px;
+    width: auto;
+    border-bottom: 1px solid gray;
+    
+}
+.logo > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.logo > a > img {
+    width: 60px;
+    height: 30px;
+}
+.Navbar > nav {
+    display: flex;
+    align-items: center;
+}
+.Navbar > nav > menu {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    margin-left: -30px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    align-items: center;
+}
+.Navbar-right {
+    display: flex;
+    gap: 11px;
+    margin-left: 1450px;
+}
+.Navbar-right > img {
+    width: 16px;
+    height: 17px;
+}
+.Navbar-right > div > span {
+    width: 24px;
+    height: 3px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d040ff;
+    display: flex;
+    
+}
+.Navbar-right > div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+/* Navbar ends */
+/* Poster Write up */
+.Posterinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 900px;
+    height: auto;
+    margin-left: 660px;
+    /* background-color: black;  */
+}
+.Posterinfo > div > h1 {
+    font-size: 15px;
+    color: rgba(29, 162, 251, 0.864);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left: 26px;
+    
+    
+}
+.Posterinfo > div > img {
+    width: 750px;
+    height: auto;
+    margin-top: -37px;
+    
+}
+.Posterinfo > div > div {
+    margin-top: -50px;
+}
+.Posterinfo > div > div > p {
+    color: #e394fdc9;
+    font-size: 17px;
+    line-height: 1px;
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 1px;
+    margin-left: 80px;
+    
+}
+.Posterinfo > div > div > p + p {
+   font-size: 25px;
+   letter-spacing: 3px;
+}
+.Posterinfo > div > div > p + p + p {
+    color: rgba(29, 181, 251, 0.864);
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    letter-spacing: 1px;
+
+}
+    
+.Posterinfo > div > div > p + p + p > span {
+    font-size: 17px
+}
+
+/* Copyright information */
+
+.Copyright {
+    display: flex;
+    width: 500px;
+    height: auto;
+    margin-left: 918px;
+    margin-top: 140px;
+    align-items: center;
+    justify-content: center;
+    color: rgba(60, 193, 208, 0.255);
+    gap: 50px; 
+    font-family: 'Roboto', sans-serif;
+}
+.Copyright > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center     ;
+}
+.Copyright > div > img {
+    width: 20px;
+    height: auto;
+}
+.Copyright > div > img + img {
+    width: 25px;
+}
+.Copyright > div + div {
+    display: flex;
+    
+}
+.Copyright > div + div > div {
+    display: flex;
+}
+.Copyright > div + div > div > img {
+    width: 10px;
+    height: 21px;
+    margin-left: -10px;
+}
+.Copyright > div > p {
+    font-size: 3px;
+}
+.Copyright > div + div > div > p {
+    font-size: 5px;
+    width: 35px;
+}
+.Copyright > div + div > div > p + img + p {
+    font-size: 7px;
+    text-align: center;
+    line-height: 4px;
+    margin-left: 2px;
+    margin-top: 8px;
+    
+}
+.Copyright > div + div > div > p + img + p > span {
+    font-size: 3px;
+    margin-left: 15px;
+
+}
+.Copyright > div + div > div > p  > span {
+    font-size: 5px;
+}
+.Copyright > div + div > div + div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+.Copyright > div + div > div + div > p {
+    font-size: 11px;
+    width: 98px;
+    text-align: center;
+    line-height: 5px;
+    margin-top: 15px;
+    margin-left: -7px;
+
+    
+}
+.Copyright > div + div > div + div > p > span {
+    font-size: 4px;
+    
+}
+.Copyright > div + div > div + div > img {
+    width: 16px;
+    height: 21px;
+    
+}
+/* Second page CSS */
+
+.Poster2 {
+    margin: 0;
+    padding: 0;
+    /* background-color: black;  */
+    overflow: hidden;
+
+}
+/* Navbar  */
+.logo2 > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.logo2 > a > img {
+    width: 25px;
+    height: 25px;
+
+} 
+.Navbar2 {
+    display: flex;
+    background-color: black;
+    height: 35px;
+    width: auto;
+    padding-left: 20px;
+    border-bottom: 1px solid gray;
+    
+}
+
+.Navbar2 > nav {
+    display: flex;
+    align-items: center;
+}
+.Navbar2 > nav > menu {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    margin-left: -20px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    align-items: center;
+}
+/* Poster write up begins */
+.Landing {
+    /* background-color: black; */
+    width: auto;
+    height: 96.4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black; 
+}
+.Poster2info {
+    background-image: url('../Movie-Poster-Page-2/Images/Page2-Background.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100%;
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 500px; 
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.PosterImage > img {
+    width: 470px;
+    height: 128px;
+}
+
+.PosterWriteup {
+    color: #f27effe6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1px;
+}
+.PosterWriteup > p {
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.PosterWriteup > p + img + p {
+    color:  rgba(72, 148, 248, 0.99);
+    font-size: 18px;
+}
+.PosterWriteup > p + img + p > span{
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+.PosterWriteup > img {
+    width: 90px;
+    height: 40px;
+}
+.Copyrightscontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 900px;
+}
